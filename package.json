@@ -1,7 +1,7 @@
 {
-  "name": "expensify-app",
+  "name": "basic-react",
   "version": "0.1.0",
-  "description": "Expensify is a demo app made with React for educational purposes",
+  "description": "React boilerplate for my projects, based on create-react-app",
   "author": "Giancarlo Vera",
   "license": "MIT",
   "dependencies": {
