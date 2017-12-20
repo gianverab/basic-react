@@ -1,43 +1,28 @@
 {
-  "name": "basic-react",
-  "version": "1.0.0",
-  "description": "Basic structure of React app",
-  "main": "/build/app.js",
-  "scripts": {
-    "production": "webpack -p",
-    "build": "webpack --colors",
-    "serve": "webpack-dev-server --content-base build/ --colors --progress",
-    "start": "yarn run build && yarn run serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/gianverab/basic-react.git"
-  },
+  "name": "expensify-app",
+  "version": "0.1.0",
+  "description": "Expensify is a demo app made with React for educational purposes",
   "author": "Giancarlo Vera",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gianverab/basic-react/issues"
-  },
-  "homepage": "https://github.com/gianverab/basic-react#readme",
-  "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-loader": "^6.2.7",
-    "babel-preset-latest": "^6.16.0",
-    "babel-preset-react": "^6.16.0",
-    "css-loader": "^0.25.0",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "html-webpack-plugin": "^2.24.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
-  },
   "dependencies": {
-    "firebase": "^3.6.1",
-    "moment": "^2.16.0",
-    "normalize-css": "^2.3.1",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-router": "v4.0.0-alpha.4",
-    "uuid": "^2.0.3"
+    "prop-types": "15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "1.0.17",
+    "styled-components": "2.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
   }
 }
